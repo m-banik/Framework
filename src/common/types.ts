@@ -42,7 +42,7 @@ export type UseButtonComponentType = (
 };
 
 export type DataType = {
-  type: ComponentsKeysType;
+  type: string;
   props?: {
     name: string;
     type?: string;
