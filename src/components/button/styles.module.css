@@ -1,0 +1,22 @@
+.button {
+  padding: 5px 10px;
+  border-color: transparent;
+  border-radius: 10%;
+  color: #fff;
+  background-color: rebeccapurple;
+  text-transform: uppercase;
+  outline: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #8d3499;
+}
+
+.button:disabled {
+  color: #817575;
+  background-color: #c1c1c1;
+  cursor: default;
+}
